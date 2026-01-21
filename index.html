@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+    <meta name="application-name" content="Codion Loadscreen" />
+    <meta name="generator" content="Codion" />
+    <title>Smoke RP Loading</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="photo-credit">Photo Credit : XYZ @ XYZ</div>
+    <div class="brand">Codion</div>
+
+
+    <div class="background"></div>
+
+    <!-- CENTER LOGO BLOCK -->
+    <div class="logo-wrapper">
+        <img src="assets/logo.png" class="logo">
+        <div class="underline"></div>
+
+        <!-- Animated Loading Bar -->
+        <div class="progress-container">
+            <div class="progress-bar"></div>
+        </div>
+    </div>
+
+    <!-- LOADING TEXT BLOCK -->
+    <div class="loading-block">
+        <h2 id="loading-title">Loading Meshes</h2>
+        <p id="loading-lines"></p>
+    </div>
+
+    <div class="tip-text">
+        TIPS : Get Insurance from Traffic Police! to Avoid Theft of your Vehicle
+    </div>
+
+    
+
+    <div class="audio-control">
+        <button id="audio-mute" aria-label="Mute/Unmute">🔊</button>
+    </div>
+     
+    <audio id="bg-music" loop preload="auto" muted>
+    <source src="assets/music.mp3" type="audio/mp3">
+        </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

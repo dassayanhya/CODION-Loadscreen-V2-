@@ -1,0 +1,23 @@
+Codion Loadscreen V2 License
+
+Copyright (c) Codion. All rights reserved.
+
+Scope
+- Non-transferable, non-exclusive license to use this asset on one (1) FiveM server instance.
+- No warranty. Provided “as is”.
+
+✔ Allowed:
+
+- Use on a single FiveM server
+- Edit visuals for personal server use
+
+✖ Not Allowed:
+
+- Redistribution
+- Resale
+- Leaking
+- Re-uploading
+- Claiming as own work
+
+Violations may result in DMCA takedown..
+
