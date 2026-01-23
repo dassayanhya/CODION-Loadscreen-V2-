@@ -167,3 +167,14 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+
+// Graceful fade-out before shutdown
+window.addEventListener("message", (event) => {
+    if (!event || !event.data) return;
+
+    if (event.data.eventName === "fadeOut") {
+        document.body.classList.add("fade-out");
+    }
+});
+
+
