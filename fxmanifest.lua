@@ -9,6 +9,8 @@ version '2.0.0'
 -- Use index.html as the loadscreen entry
 loadscreen 'index.html'
 
+loadscreen_manual_shutdown 'yes'
+
 -- Include required files
 files {
   'index.html',
